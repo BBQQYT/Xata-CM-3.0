@@ -1,0 +1,30 @@
+
+[[filters]]
+	name = "auto-ballistix.common.entity.EntityBlast"
+	priority = 10
+
+	[filters.pools]
+
+		[filters.pools.primary]
+			name = "LEGACY"
+			params = {}
+
+	[filters.targets]
+		blacklist = ["ballistix.common.entity.EntityBlast"]
+		whitelist = []
+
+
+[[filters]]
+	name = "auto-ballistix.common.entity.EntityBlast"
+	priority = 10
+
+	[filters.pools]
+
+		[filters.pools.primary]
+			name = "LEGACY"
+			params = {}
+
+	[filters.targets]
+		blacklist = ["ballistix.common.entity.EntityBlast"]
+		whitelist = []
+
